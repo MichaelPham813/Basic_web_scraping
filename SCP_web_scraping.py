@@ -33,5 +33,5 @@ with page as response:
         rows_data_content = [data.get_text().strip() for data in rows_data]
         length = len(df)
         df.loc[length] = rows_data_content
-
-df.to_csv("D:/AnalystProjects/SCP_List.csv")
+print(df)
+# df.to_csv("D:/AnalystProjects/SCP_List.csv")
